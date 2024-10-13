@@ -23,6 +23,35 @@ body{
     display: grid;
     grid-template-columns: auto 1fr;
 }
+.hero{
+    .hero-erp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 10px;
+        .hero-login{
+            button{
+                border: none;
+                background: none;
+                color: var(--text-clr);
+                cursor: pointer;
+                margin-top: 15px;
+                margin-right: 10px;
+                font-weight: bold;
+            }
+            button:hover{
+                color: var(--accent-clr);
+            }
+        }
+        .logo-erp{
+            width: 3em;
+        }
+    }
+    .wanita {
+        width: 100%;
+    }
+}
 #sidebar{
     box-sizing: border-box;
     height: 100vh;
